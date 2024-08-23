@@ -1,0 +1,130 @@
+body
+{
+    background-color: rgb(201, 6, 16);
+}
+
+:root
+{
+    --color_primario: rgb(28, 26, 26);
+    --color_secundario: rgb(210, 223, 210);
+    --tamaño: 100px;
+
+}
+
+.header
+{
+    border: 1px solid rgb(147, 23, 185);
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main
+{
+    border: 1px solid rgb(147, 23, 185);
+    height: 50%;
+}
+
+.footer
+{
+    border: 1px solid rgb(194, 190, 197);
+    height: 10%;
+}
+
+.border
+{
+    border: 1px solid rgb(35, 246, 253);
+}
+
+.background
+{
+    background-color: rgb(225, 218, 231);
+}
+
+.menuprincipal
+{
+    width: 40%;
+}
+
+.menu1
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item
+{
+    list-style: none;
+}
+
+.form
+{
+    width: 40%;
+
+    margin: auto;
+
+    border: 1px solid rgb(243, 251, 243);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.images
+{
+    width: 50%;
+    margin: auto;
+    border: 1px solid red;
+}
+
+.title
+{
+    max-width: 100%;
+}
+
+.border1
+{
+    border: 2px solid rgb(49, 216, 234);
+    border-top: 2px double rgb(236, 231, 241);
+    border-bottom: 4px dotted aqua;
+}
+
+.shadow
+{
+    border: 2px soliod burlywood;
+    box-shadow: 15px 15px 20px 2px black;
+    box-shadow: 2px;
+}
+
+.shadow
+{
+    text-shadow: 3px 3px 0px red,
+        3px 3px 0px blueviolet,
+        3px 3px 0px rgb(205, 21, 21);
+}
+
+.fondo
+{
+    background-color: rgb(85, 245, 248);
+    background-image: url('/img/gojo.jpg');
+
+}
+
+body
+{
+    background-image: url(/img/images\ \(3\).jfif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a:hover
+{
+    font-size: 20px;
+    color: brown;
+    background-color: blue;
+}
+
+a:visited
+{
+    color: var(--color_primario);
+    width: var(var(--tamaño));
+}
